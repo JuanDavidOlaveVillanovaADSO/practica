@@ -1,0 +1,87 @@
+  .fondo{
+    background: rgb(88, 156, 88);
+    flex-wrap: wrap;
+}
+.hoja{
+    height: 100%;
+    width: 90%;
+    border: black solid;
+    background: yellow; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+@media (max-width: 480px){
+    .hoja{ width: 90%;
+        background: red;
+        font-size: 0.8rem;    
+    }
+    .titulo{
+        width: 100%;
+    }
+    .titulo h1{
+        width: 100%;
+        background: blue;
+        font-size: 0.5rem ;
+    }
+    .nav{
+        width: 100%;
+        background: green;
+        font-size: 0.5;
+    }
+}
+
+.titulo{
+    width: 110px;
+    height: auto;
+    position: relative;
+    bottom: 20%;
+    color: aquamarine;
+    left: 0%;
+    font-size: 1em;
+    text-align: center;   
+    flex-wrap: wrap;
+    min-width: 100%;
+    background: salmon;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 100%;
+    height: auto;
+    background: slateblue;
+    color: aliceblue;
+    font-size: 1em;
+    position: relative; 
+}
+.img2{
+    width: 10px;
+}
+
+ /* .img1{
+    width: 50%;
+    height: 20%;
+    position: relative;
+    top: 20%;
+    left: 5%;
+} 
+.texto1{
+    width: 40%;
+    height: 30%;
+    position: relative;
+    left: 57%;
+    bottom: 25%;
+    font-size: 0.7em;
+    margin: 2px;
+    vertical-align: auto;
+} *//*
+.texto2{
+    width: 60%;
+    height: 30%;
+    position: absolute;
+    left: 33%;
+    top: 35%;
+    font-size: 1em;
+}  */
